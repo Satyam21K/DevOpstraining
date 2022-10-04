@@ -4,13 +4,15 @@
  */
 public class HelloWorld {
   public static void main(String[] args) {
-    int a=4,b,i;
+    int a=5,b,i;
     
-    for(i=0;i<a;i++){
-      for(b=0;b<i;b++){
-    System.out.println("*\n");
-    }}
-      
+    for(int i=0; i<a; i++)   
+{   
+for(int j=0; j<=i; j++)   
+{   
+System.out.print("* ");   
+}   
+System.out.println();   
     System.out.println("My name is satyam");
   }
 }
